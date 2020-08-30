@@ -1,8 +1,13 @@
+@font-face{
+  font-family: 'webFont';
+  src: url('./static/fonts/Nexa-Regular.otf'), url('./static/fonts/Nexa-Light.otf'), url('./static/fonts/Nexa-Bold.otf');
+  
+
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "webFont";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
