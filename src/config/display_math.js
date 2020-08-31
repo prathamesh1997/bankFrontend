@@ -1,8 +1,9 @@
+//  1,00,000
 export function DisplayMath(x){
     x=x.toString();
     var lastThree = x.substring(x.length-3);
     var otherNumbers = x.substring(0,x.length-3);
-    if(otherNumbers != '')
+    if(otherNumbers !== '')
         lastThree = ',' + lastThree;
     return  otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
 }

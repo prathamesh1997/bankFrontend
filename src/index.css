@@ -16,3 +16,97 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.dark{
+ color: #959595 !important;
+}
+
+.light{
+  color: #D0D3D8 !important;
+}
+
+.label{
+  color: #002CCE !important;
+}
+p{
+  margin:0;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.heads{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.mt-1{
+  margin-top: 1rem;
+}
+.mt-1h{
+  margin-top: 1.5rem;
+  border-right: 1px solid #D0D3D8 !important;
+}
+.mt-2{
+  margin-top: 2.5rem;
+}
+.ml-a{
+  margin-left: auto;
+}
+.mr-a{
+  margin-right: auto ;
+}
+
+.heads-title{
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.6rem;
+  font-size: 2rem;
+}
+
+.summary-title{
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+
+.border-last{
+  border-right: none !important;
+}
+
+.btn_submit{
+  padding:0.6em 2em;
+  border-radius: 25px;
+  color:#002CCE;
+  background-color:#fff;
+  font-size:1.2rem;
+  border:0;
+  cursor:pointer;
+  margin:1em;
+  border:1px solid #E90000;
+  font-weight: 700;
+  position: relative;
+  outline: none;
+}
+
+.right-icon{
+  position: absolute;
+  left: 8.5rem;
+  bottom: 0.4rem;
+  transition: all 0.3s ease;
+}
+.btn_submit:hover span{
+  transform: translateX(5px);
+}
+
+.btn_submit::after span{
+  transform: translateX(5px);
+}
+
+.PrivateRadioButtonIcon-layer-21{
+  color: #002CCE !important;
+}
