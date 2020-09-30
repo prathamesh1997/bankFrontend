@@ -90,7 +90,7 @@ export function CalcMain() {
 					>
 						{INV_RATE.map((data, index) => (
 							<FormControlLabel
-								id={`${index}-type`}
+								key={`${index}-type`}
 								value={data.value}
 								control={<RadioCommon size="small" />}
 								label={

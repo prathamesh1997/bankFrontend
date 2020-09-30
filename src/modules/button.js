@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { Box } from '@material-ui/core';
 import ArrowForwardSharpIcon from '@material-ui/icons/ArrowForwardSharp';
 
 export function ConfirmBtn(props) {
